@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.spinner {
+    position: absolute;
+}
+
+.text-with-gradient {
+    background: -webkit-linear-gradient(#35ecfb, #f70074);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.bg-with-gradient {
+    background: linear-gradient(to right, #35ecfb, #f70074);
+}
